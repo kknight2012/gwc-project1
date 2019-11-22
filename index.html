@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>Bootstrap Theme Simply Me</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <style>
+  body {
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  .bg-1 { 
+    background-color: teal; /* Green */
+    color: #ffffff;
+  }
+  .bg-2 { 
+    background-color: #474e5d; /* Dark Blue */
+    color: #ffffff;
+  }
+  .bg-3 { 
+    background-color: #ffffff; /* White */
+    color: #555555;
+  }
+  .bg-4 { 
+    background-color: #2f2f2f; /* Black Gray */
+    color: #fff;
+  }
+  .container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+    color: #1abc9c !important;
+  }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Thelina George</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+       
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- First Container -->
+<div class="container-fluid bg-1 text-center">
+  <h3 class="margin">Who Am I?</h3>
+  <img src="https://cdn.shopify.com/s/files/1/2040/0303/products/Cute_Kindergarten_Nursery_Animal_Drawing_Cartoon_-_Fish_187544011_grande.jpg?v=1505499044" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="350" height="350">
+  <h3>I'm a girl who codes</h3>
+</div>
+
+<!-- Second Container -->
+<div class="container-fluid bg-2 text-center">
+  <h3 class="margin">What Am I?</h3>
+  <p>I am a teacher , a sister, a coder, a daughter, an aunt, and a friends. </p>
+  
+</div>
+
+<!-- Third Container (Grid) -->
+<div class="container-fluid bg-3 text-center">    
+  <h3 class="margin">Where To Find Me?</h3><br>
+  <div class="row">
+    <div class="col-sm-4">
+      <p>
+          West EssexYMCA
+      </p>
+      <img src="data:image/png;base64,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" class="img-responsive margin" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-4"> 
+      <p>Columbia high school</p>
+      <img src="https://patch.com/img/cdn20/users/1062528/20191024/111604/styles/patch_image/public/columbia___24111514612.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-4"> 
+      <p>Columbia university</p>
+      <img src="https://media.nbcnewyork.com/images/652*367/columbia-university-generic.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="container-fluid bg-4 text-center">
+  <p>Made by Thelina
+    </p> 
+    <iframe src="https://scratch.mit.edu/projects/319009167/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
+</footer>
+
+</body>
+</html>
